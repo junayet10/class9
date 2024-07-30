@@ -1,0 +1,145 @@
+/* COMMON */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6, p{
+    padding: 0;
+}
+:root{
+    --cmn_clr:#0f2f44;
+    --abril:"Abril Fatface", serif;
+    --ubuntu:"Ubuntu", sans-serif;
+    --open:"Open Sans", sans-serif;
+}
+/* COMMON END */
+body{
+    font-family: var(--ubuntu);
+}
+
+/* HEADER */
+header{
+    background-color: var(--cmn_clr);
+
+}
+header span{
+    color: #ffff;
+    padding: 19px 0;
+    line-height: 0;
+}
+header .row{
+    justify-content: space-between;
+}
+
+/* HEADER END*/
+
+
+/* NAV */
+nav{
+    height: 95px;
+}
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+}
+nav .row ul li{
+    display: inline-block;
+}
+nav .row ul li a{
+    padding: 0px 19px;
+    display: inline-block;
+    font-size: 18px;
+    color: #222222;
+    text-transform: capitalize;
+}
+nav ul li:last-child a{
+    padding-right: 0;
+}
+nav .row ul li a:hover{
+    color: #ffc712;
+}
+
+
+
+/* NAV END*/
+
+
+
+/* BANNER */
+#banner{
+    background-image: url('../images/2.png');
+    padding: 100px 0 140px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    font-size: 50px;
+    color: var(--cmn_clr);
+    font-weight: 400;
+}
+#banner h1{
+    font-size: 80px;
+    color: var(--cmn_clr);
+    font-weight: 400;
+    line-height: 73px;
+    font-family: var(--abril);
+
+}
+#banner .contains{
+    width: 50%;
+}
+#banner h5{
+    letter-spacing: 9.5px;
+    font-weight: 400;
+    color: #8484bf;
+    font-size: 32px;
+    
+    padding-bottom: 30px;
+}
+#banner p{
+    font-size: 14px;
+    color: #444444;
+    font-family: var(--open);
+}
+#banner .btn-group{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#banner .btn-group a{
+    padding: 16px 20px;
+    display: inline-block;
+    background-color: #8484bf;
+    border-radius: 16px;
+    color: #ffff;
+    margin-right: 5px;
+
+}
+#banner .btn-group a:hover{
+    color: rgb(49, 238, 15);
+}
+
+
+
+
+
+/* BANNER END*/
+
+
